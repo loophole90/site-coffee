@@ -252,10 +252,5 @@ footer>a:hover{color: #ffffff;}
 }
 
 @media (max-width: 1440px){section> img{ display: none;}section{height: auto;}}
-
 @media (max-width: 1180px){footer{margin-top: 60px;} textarea{border: 1px solid rgb(68, 206, 5);}}
-@media (max-width: 402px){section:nth-child(1){height: 350px;}}
-@media (max-width: 320px){section:nth-child(1){height: 375px;}}
-@media (max-width: 280px){section:nth-child(1){height: 450px;}}
-@media (max-width: 244px){section:nth-child(1){height: 470px;}}
 @media (max-width: 375px){form>div>input{width: 300px;}}
