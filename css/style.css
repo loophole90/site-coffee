@@ -123,7 +123,7 @@ section:nth-child(3)>img, section:nth-child(4)>img{border-radius: 0 1rem 1rem 0;
 
 section{ 
     width: 40%;
-    height: 300px;
+    height: 15.62vw;
     border: 1px solid #e2e2e2;
     border-radius: 1rem;
     display: flex;
@@ -253,4 +253,7 @@ footer>a:hover{color: #ffffff;}
 
 @media (max-width: 1440px){section> img{ display: none;}section{height: auto;}}
 @media (max-width: 1180px){footer{margin-top: 60px;} textarea{border: 1px solid rgb(68, 206, 5);}}
+@media (max-width: 1823px){section:nth-child(3)>div>p, section:nth-child(4)>div>p{font-size: 1rem;}}
+@media (max-width: 1680px){section:nth-child(3)>div>p, section:nth-child(4)>div>p{font-size: 0.8rem;}}
+@media (max-width: 1451px){section:nth-child(2)>div>p{font-size: 1rem;}}
 @media (max-width: 375px){form>div>input{width: 300px;}}
