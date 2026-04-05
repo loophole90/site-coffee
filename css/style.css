@@ -251,7 +251,7 @@ footer>a:hover{color: #ffffff;}
   form{border: none; padding: 75px 0 0 0;}
 }
 
-@media (max-width: 1440px){section> img{ display: none;}}
+@media (max-width: 1440px){section> img{ display: none;}section{height: auto;}}
 
 @media (max-width: 1180px){footer{margin-top: 60px;} textarea{border: 1px solid rgb(68, 206, 5);}}
 @media (max-width: 402px){section:nth-child(1){height: 350px;}}
