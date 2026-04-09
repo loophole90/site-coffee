@@ -29,7 +29,7 @@ html {
 .hero {
     height: 96vh;
     background: 
-        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url("../img/background.jpg") center/cover no-repeat;
     color: white;
     display: flex;
@@ -47,7 +47,7 @@ html {
 }
 
 
-.nav>a{font-size: clamp(18px, 2.5vw, 32px); color: rgb(255, 255, 255); transition: all 0.3s;}
+.nav>a{font-size: clamp(18px, 2.5vw, 32px); color: rgb(255, 255, 255); transition: all 0.3s; }
 .nav>a:hover{color: rgba(255, 172, 48, 0.849) !important;}
 
 .menu{
@@ -65,9 +65,9 @@ a{
     font-size: clamp(14px, 1.5vw, 20px);
     transition: all 0.2s;
 }
-
+li>a{font-weight: 400 !important;}
 .menu>li>a:hover{
-    color: rgba(255, 172, 48, 0.849) !important;
+    color: rgba(201, 120, 0, 0.849) !important;
     font-size: clamp(16px, 1.8vw, 24px);
 }
 
@@ -90,7 +90,7 @@ a{
 
 .hero-content > p{color: #ffffff; text-align: center; font-size: clamp(16px, 2.5vw, 22px);}
 .hero-content > a{border: 2px solid white; padding: 4px 8px 4px 8px; transform: translateY(140px); transition: all 0.3s; }
-.hero-content > a:hover{background: #d37f1e;}
+.hero-content > a:hover{background: #834600;}
 
 /* MAIN */
 .coffee{
@@ -191,8 +191,8 @@ form>div>h2{font-size: clamp(14px, 2vw, 28px);}
 
 form>div>input{border: none; border-bottom: 1px solid rgb(68, 206, 5); height: 48px; width: 350px;}
 form>div{display: flex; flex-direction: column; height: 276px; justify-content: center;}
-textarea{width: 712px; height: 185px; padding-left: 18px; padding-top: 5px; font-size: clamp(12px, 1vw, 18px);}
-input:nth-child(5){width: 350px; height: 48px; font-size: 1vw;}
+textarea{width: 712px; height: 185px; padding-left: 18px; padding-top: 5px; font-size: clamp(12px, 1vw, 18px); resize: none;}
+input:nth-child(5){width: 350px; height: 48px; font-size: 1vw;} 
 input:nth-child(7){width: 350px; height: 48px; font-size: 1vw;}
 button{margin-top: 16px; background: none; padding: 10px; transition: 0.3s all; cursor: pointer; height: 50px;}
 button:hover{ background: rgb(68, 206, 5);}
